@@ -3,7 +3,7 @@ using namespace std;
 typedef long long ll;
 int a[100004], b, c, psum[100004], n, m;
 int main () {
-  ios_base::sync_with_studio(false); cin.tie(NULL); cout.tie(NULL);
+  ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
   cin >> n >> m;
   for (int i = 1; i <= n; i++) {
     cin >> a[i];
