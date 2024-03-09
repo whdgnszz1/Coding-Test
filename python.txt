@@ -1,1 +1,4 @@
+import sys
+sys.stdin = open("input.txt", "rt")
+
 python3 variable.py
