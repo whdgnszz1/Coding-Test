@@ -14,8 +14,6 @@ def DFS(L, sum, time):
     DFS(L + 1, sum + pv[L], time + pt[L])
     DFS(L + 1, sum , time)
 
-    
-
 if __name__=="__main__":
   n, m = map(int, input().split())
   pv = list()
