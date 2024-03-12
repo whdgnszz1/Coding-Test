@@ -2,3 +2,15 @@ import sys
 sys.stdin = open("input.txt", "rt")
 
 python3 variable.py
+
+
+import sys
+sys.stdin = open("input.txt", "r")
+input = sys.stdin.readline
+
+def DFS(L):
+
+if __name__=="__main__":
+  n, f = map(int, input().split())
+
+  DFS(0, 0)
